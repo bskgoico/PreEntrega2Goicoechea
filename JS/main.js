@@ -126,12 +126,10 @@ const divisas = {
   
   console.log(conversioneHechas);
   
+const conversionesArs = conversioneHechas.find(el => el.desde == 'ars');
+const conversionesUsd = conversioneHechas.find(el => el.desde == 'usd');
+const conversionesEur = conversioneHechas.find(el => el.desde == 'eur');
   
-  const conversionesArs = conversioneHechas.find(el => el.desde('ars'));
-  const conversionesUsd = conversioneHechas.find(el => el.desde('usd'));
-  const conversionesEur = conversioneHechas.find(el => el.desde('eur'));
-  
-  
-  console.log(conversionesArs);
-  console.log(conversionesUsd);
-  console.log(conversionesEur);
+console.log(conversionesArs);
+console.log(conversionesUsd);
+console.log(conversionesEur);
