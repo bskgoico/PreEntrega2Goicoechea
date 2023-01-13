@@ -124,12 +124,12 @@ const divisas = {
   
   repetidor(respuesta2);
   
-  console.log(conversioneHechas);
+  console.log('Conversiones Hechas', conversioneHechas);
   
 const conversionesArs = conversioneHechas.find(el => el.desde == 'ars');
 const conversionesUsd = conversioneHechas.find(el => el.desde == 'usd');
 const conversionesEur = conversioneHechas.find(el => el.desde == 'eur');
   
-console.log(conversionesArs);
-console.log(conversionesUsd);
-console.log(conversionesEur);
+console.log('Conversiones desde Ars:', conversionesArs);
+console.log('Conversiones desde Usds:', conversionesUsd);
+console.log('Conversiones desde Eurs:', conversionesEur);
